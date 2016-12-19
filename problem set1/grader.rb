@@ -1,5 +1,4 @@
 def grader(score)
-  # TODO: complete me
   return "F" if (score>1||score<0.6)
   return "A" if (score>=0.9)
   return "B" if (score>=0.8)

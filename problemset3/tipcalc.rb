@@ -12,5 +12,5 @@ def calculate_tip(amount, rating)
   (0*amount)*ceil
   else 
   "Rating not recognised"
-end
+  end
 end

@@ -1,4 +1,4 @@
-def solution(sentence)
+	def solution(sentence)
 	sentence.split.reverse.join(" ")
 end 
 

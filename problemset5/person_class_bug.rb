@@ -1,9 +1,10 @@
+class Person
   def full_name
     "#{@firstName} #{@lastName}"
   end
   
   def age 
-  "#{@age}"
+    "#{@age}"
   end
 end
 person =Person.new("Yo","Whatsup",21)

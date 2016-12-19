@@ -1,9 +1,9 @@
 def calc_mean(ary)
   if !ary.is_a?(Array)
     0
-  elsif ary.empty?
+    elsif ary.empty?
     0
-  else
+    else
     ary.inject(0, :+)/ary.count.to_f
   end
 end
