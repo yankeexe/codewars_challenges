@@ -7,3 +7,4 @@ def squareSum(numbers)
 	return sum
 end
 
+
